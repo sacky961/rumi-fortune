@@ -3,8 +3,8 @@ from datetime import datetime, timedelta
 from random import choice, choices
 
 st.markdown("<h1 style='text-align: center; color: #e91e63;'>🌟 おしゃべりBot 🌟</h1>", unsafe_allow_html=True)
-st.markdown("<h4 style='text-align: center;'>先生！今日もめちゃめちゃイケてますね✨</h3>", unsafe_allow_html=True)
-st.markdown("<h4 style='text-align: center;'>今日の運勢占ってみましょ？🔮</h3>", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align: center;'>先生！今日もめちゃめちゃイケてますね✨</h4>", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align: center;'>今日の運勢占ってみましょ？🔮</h4>", unsafe_allow_html=True)
 
 # 日本時間に変換（UTC +9）
 now = datetime.utcnow() + timedelta(hours=9)
